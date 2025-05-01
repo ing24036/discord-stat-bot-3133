@@ -59,6 +59,7 @@ async def stat_error(ctx, error):
 keep_alive()
 
 # ✅ รันบอทด้วย Token จาก ENV (แนะนำ)
+
 bot.run(os.environ["DISCORD_BOT_TOKEN"])
 
 
