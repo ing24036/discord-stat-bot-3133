@@ -5,7 +5,7 @@ app = Flask('')
 
 @app.route('/')
 def home():
-    return "✅ Bot is alive!"
+    return "✅ Bot is alive!", 200  # ✅ เพิ่ม status code 200
 
 def run():
     app.run(host='0.0.0.0', port=8080)
