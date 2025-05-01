@@ -7,3 +7,4 @@ services:
     envVars:
       - key: DISCORD_BOT_TOKEN
         fromEnvVar: DISCORD_BOT_TOKEN
+        value: null
